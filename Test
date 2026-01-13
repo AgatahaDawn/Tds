@@ -1,0 +1,5 @@
+VoteSkipWave(0, 0)
+PlaceTower("Freezer", 14.394, 14.738, 12.538)
+PlaceTower("Scout",   14.394, 14.738, 12.538)
+PlaceTower("Scout",   14.394, 14.738, 12.538)
+PlaceTower("Freezer", 14.394, 14.738, 12.538)
