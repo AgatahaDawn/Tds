@@ -1,0 +1,95 @@
+-- ===== AUTO SETTINGS =====
+_G.AutoChain = true
+_G.AutoPickups = true
+_G.AutoDJ = true
+_G.AutoSkip = true
+
+
+-- ===============================
+-- SHARED STACK POSITION
+-- ===============================
+local x, y, z = 6.366, 2.000, -3.525
+
+
+-- ===============================
+-- COWBOY #1 (STACK)
+-- ===============================
+PlaceTower("Cowboy", x, y, z, "stack")
+
+for i = 1, 6 do
+    UpgradeTower(x, z)
+end
+
+
+-- ===============================
+-- BRAWLER #1 (STACK)
+-- ===============================
+PlaceTower("Brawler", x, y, z, "stack")
+
+for i = 1, 7 do
+    UpgradeTower(x, z)
+end
+
+
+-- ===============================
+-- BRAWLER #2 (STACK)
+-- ===============================
+PlaceTower("Brawler", x, y, z, "stack")
+
+for i = 1, 7 do
+    UpgradeTower(x, z)
+end
+
+
+-- ===============================
+-- BRAWLER #3 (STACK)
+-- ===============================
+PlaceTower("Brawler", x, y, z, "stack")
+
+for i = 1, 7 do
+    UpgradeTower(x, z)
+end
+
+
+-- ===============================
+-- COWBOY #2 (STACK)
+-- ===============================
+PlaceTower("Cowboy", x, y, z, "stack")
+
+for i = 1, 7 do
+    UpgradeTower(x, z)
+end
+
+
+-- ===============================
+-- COWBOY #3 (STACK)
+-- ===============================
+PlaceTower("Cowboy", x, y, z, "stack")
+
+for i = 1, 8 do
+    UpgradeTower(x, z)
+end
+
+
+-- ===============================
+-- CROOK BOSSES (STACK)
+-- ===============================
+PlaceTower("Crook Boss", x, y, z, "stack")
+PlaceTower("Crook Boss", x, y, z, "stack")
+
+
+-- ===============================
+-- SCOUTS (STACK)
+-- ===============================
+PlaceTower("Scout", x, y, z, "stack")
+PlaceTower("Scout", x, y, z, "stack")
+
+
+-- ===============================
+-- SHOTGUNNERS (STACK)
+-- ===============================
+PlaceTower("Shotgunner", x, y, z, "stack")
+PlaceTower("Shotgunner", x, y, z, "stack")
+PlaceTower("Shotgunner", x, y, z, "stack")
+PlaceTower("Shotgunner", x, y, z, "stack")
+PlaceTower("Shotgunner", x, y, z, "stack")
